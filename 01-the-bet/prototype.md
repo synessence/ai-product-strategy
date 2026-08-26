@@ -1,19 +1,19 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+An AI that is able to recognize a user's intent to enroll in a Medicaid plan, authenticate them, and walk them through the multi-step workflow through to completion.
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+https://medicaid-mentor-bot.lovable.app
 
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+<!-- Automator / Orchestrator
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+That a virtual assistant to walk users through a complex workflow will a) result in improved user outcomes/conversion (measured by enrollments for the digital channel); b) result in significant call deflection from inbound call center calls.
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+Reduction in channel enrollments; increased call center traffic; 
