@@ -1,0 +1,11 @@
+Build me a web app prototype for an AI automator/orchestrator product called Maxine.
+
+Who: consumer Medicaid recipient
+Core task: guiding consumer thorugh the multi-step medicaid plan selection process
+First screen: "what would you like to do?"
+AI moment: Recognize intent to select a plan -> begins selection workflow by authenticating user (username/password)
+Output: Once authenticated walks them through steps: confirm family members being enrolled; select plan; select provider within plan; confirm; agree to legal language; show success and when plan will take effect.
+
+Clean UI. Dark theme. One page. 
+
+==============================
