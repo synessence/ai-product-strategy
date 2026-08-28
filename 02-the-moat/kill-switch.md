@@ -4,16 +4,16 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+| **Provider** | L | M | make all calls behind AI_gateway function to be platform agnostic |
+| **Abstraction** | H | L | calls a generic interface/ML abstraction |
+| **Routing** | H | H | Explore routing to foundation model based on real-time cost |
+| **Eval** | H | H | Introduce AI evals system to be applied across as models |
 
 ## Portability Score
-<!-- Ready / Partial / Locked -->
+Partial
 
 ## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
+Switch to another model OR use open-weight model
 
 ## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+Unlikely given restricted and regulated data access.
