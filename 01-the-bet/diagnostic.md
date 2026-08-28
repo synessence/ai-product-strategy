@@ -1,44 +1,31 @@
 # Three-Axis Vulnerability Diagnostic
 
-## Product
-<!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
+## My Product
 
-**Product:**
-**Your Role:**
+**Contextual Moat:** Score 4 / 5 
+Workflow Depth: We are the exclusive digital channel for interacting with personal Medicaid data, but not a daily interaction.
 
----
+Switching Costs: Extremely expensive to switch providers from a contracting, tooling, and deployment standpoint
 
-## Scores
+Moat attacker: Deloitte
 
-### Contextual Moat — __/5
-*Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
+**Data Advantage:** Score 4 / 5
+Proprietary Signal: PHI data maintained by State agencies and only accessible to contracted partners (i.e. not available to foundation models)
 
-**Score rationale:**
+Compounding Limits: Continuous improvement around analytics around time to enrollment, user flows, commonly asked questions.
 
-**Named attacker (from partner challenge):**
+Data Attacker: Conduent
 
----
+**Platform Exposure:** Score _/ 5
+Encroachment Risk: Limited due to priviliged access to proprietary systems and data, and PHI nature of data.
 
-### Data Advantage — __/5
-*Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
+Structural Defense: 
 
-**Score rationale:**
-
-**Named attacker (from partner challenge):**
-
----
-
-### Platform Exposure — __/5
-*Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
-
-**Score rationale:**
-
-**Named attacker (from partner challenge):**
-
----
-
+Platform attacker: none
 ## Top Vulnerability
 <!-- One line: what's the single biggest strategic risk? -->
+Not embracing conversational UI will give competitors an opportunity to provide better CX.
 
 ## Confidence Level
 <!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+High
