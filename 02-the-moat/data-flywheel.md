@@ -87,8 +87,19 @@ Could add it as a competitive advantage but will be unable to out-distribute us 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
 **Attacker:**
+Deloitte
+
 **Attack vector (target the weakest loop):**
+Creates a conversational UI/virtual AI CX that improves outcomes, reduces cost or engenders agency and public trust beyond us.
+
 **Weeks 1-4 - what they ship:**
+Onmi-channel AI assistant/service agent that completely replaces information architecture CX with conversational UI. Deflects call center volume, increases JTBD outcomes (completed applications; enrollments);
+
 **Weeks 5-8 - how they poach users:**
+Unlikely outside of the timeframe of contraacts, but will win bids over time.
+
 **Weeks 9-12 - why users don't come back:**
+We lose the contract rebids or new RFPs
+
 **Your defense:**
+Build it first and go on the offensive
