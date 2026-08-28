@@ -62,7 +62,7 @@ Deloitte
 Creates a conversational UI/virtual AI CX that improves outcomes, reduces cost or engenders agency and public trust beyond us.
 
 **Time-to-threat:**
-2-5 years (limited by contract terms)
+1-3 years (limited by contract terms)
 
 **% of value at risk:**
 30-40%
@@ -75,7 +75,7 @@ Any competitor in US HHS services.
 Could add it as a competitive advantage but will be unable to out-distribute us due to contracts
 
 **Time-to-threat:**
-2-5 years (limited by contract terms)
+1-3 years (limited by contract terms)
 
 **% of value at risk:**
 30-40%
