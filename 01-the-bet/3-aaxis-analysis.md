@@ -15,27 +15,3 @@ Encroachment Risk: Low risk of foundational platform owners (OpenAI, Apple, Goog
 
 Structural Defense: Even if platform giants ship free native design/wireframing features inside OS environments or chat interfaces, Figma operates as a complete multiplayer workflow layer rather than a single standalone UI feature.
 
-=====
-
-My Product
-
-**Contextual Moat:** Score 4 / 5 
-Workflow Depth: We are the exclusive digital channel for interacting with personal Medicaid data, but not a daily interaction.
-
-Switching Costs: Extremely expensive to switch providers from a contracting, tooling, and deployment standpoint
-
-Moat attacker: Deloitte
-
-**Data Advantage:** Score 4 / 5
-Proprietary Signal: PHI data maintained by State agencies and only accessible to contracted partners (i.e. not available to foundation models)
-
-Compounding Limits: Continuous improvement around analytics around time to enrollment, user flows, commonly asked questions.
-
-Data Attacker: Conduent
-
-**Platform Exposure:** Score _/ 5
-Encroachment Risk: Limited due to priviliged access to proprietary systems and data, and PHI nature of data.
-
-Structural Defense: 
-
-Platform attacker: none
