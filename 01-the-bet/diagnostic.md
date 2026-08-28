@@ -2,7 +2,7 @@
 
 ## My Product
 
-**Contextual Moat:** Score 4 / 5 
+## Contextual Moat: Score 4 / 5 
 Workflow Depth: We are the exclusive digital channel for application and enrollment into Medicaid services for those state agencies that we have contracted with. 
 
 Switching Costs: Extremely expensive to switch providers from a contracting, tooling, and deployment standpoint.
