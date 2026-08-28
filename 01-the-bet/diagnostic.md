@@ -1,6 +1,6 @@
 # Three-Axis Vulnerability Diagnostic
 
-## My Product
+## My Product - virtual assistant for application and enrollment in Medicaid services
 
 ## Contextual Moat: Score 4 / 5 
 Workflow Depth: We are the exclusive digital channel for application and enrollment into Medicaid services for those state agencies that we have contracted with. 
