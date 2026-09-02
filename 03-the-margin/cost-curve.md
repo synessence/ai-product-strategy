@@ -55,5 +55,15 @@ Decision Note
 Why this pricing structure fits the buyer and the value delivered: ·We are using AI to increase conversions while lowering call center engagement.  Therefore we are following a combination of increased conversions and lowered support costs.
 
 **Before (traditional SaaS):**
+Revenue: $85/seat x 36000 seats = $3M
+COGS: $1.7M
+Gross Margin: 176%
+
 **After (AI-enabled):**
+Revenue: $85/seat x 40000 seats = $3.4M
+COGS: $1.3M
+Gross Margin: 261%
+
 **Net margin shift:**
+Delta Margin %: 176% -> 261%
+Narrative: AI slightly increases conversion while drastically reducing call center costs while using mainly low-tier models.
