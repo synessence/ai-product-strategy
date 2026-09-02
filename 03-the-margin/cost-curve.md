@@ -33,29 +33,26 @@
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-**Triage model:**
-**Frontier model:**
-**Routing rule:**
-**Expected cascade ratio:**
+**Triage model: limited corpus and well-defined workflows**
+**Mid model: Only needed for case resolution**
+**Routing rule: Escalate to Mid model only for case resolution tasks**
+**Expected cascade ratio:70/30**
 
 ## Pricing Model
 
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
+Pricing Strategy Block, Module 3
 
-## Stress Tests
+Pricing Strategy
+- Strategy posture: Penetrate
+- Pricing model: Seat / Access
+- Unit of work metered: Enrollments completed
+- Base fee ($/month): 20
+- Price per unit: $0
+- Estimated units/user/month: 360000
+- Implied revenue/user/month: $20.00
 
-| Scenario | Impact on Margin | Response |
-|----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
-
-## Board One-Pager
-<!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
-
-
+Decision Note
+Why this pricing structure fits the buyer and the value delivered: ·We are using AI to increase conversions while lowering call center engagement.  Therefore we are following a combination of increased conversions and lowered support costs.
 
 **Before (traditional SaaS):**
 **After (AI-enabled):**
