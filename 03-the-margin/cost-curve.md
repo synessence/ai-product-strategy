@@ -2,14 +2,27 @@
 
 ## Cost Model
 
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+# Margin Calculator, Module 3
+
+## Inputs
+- Avg requests/user/month: 360000
+- Blended cost/request: $0.00005
+- Revenue/user/month: $284
+- Non-AI COGS/user/month: $2.3
+
+## Current Margin
+- AI COGS/user: $18.00
+- Total COGS/user: $20.30
+- Gross margin: 92.9% ($263.70/user)
+
+## Stress Test
+| Scenario | AI COGS | Margin |
+|----------|---------|--------|
+| 3x Cost  | $54.00 | 80.2% ($227.70) |
+| 2x Usage | $36.00 | 86.5% ($245.70) |
+
+
+==============
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
@@ -35,6 +48,26 @@
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
+
+# Margin Calculator, Module 3
+
+## Inputs
+- Avg requests/user/month: 360000
+- Blended cost/request: $0.00005
+- Revenue/user/month: $284
+- Non-AI COGS/user/month: $2.3
+
+## Current Margin
+- AI COGS/user: $18.00
+- Total COGS/user: $20.30
+- Gross margin: 92.9% ($263.70/user)
+
+## Stress Test
+| Scenario | AI COGS | Margin |
+|----------|---------|--------|
+| 3x Cost  | $54.00 | 80.2% ($227.70) |
+| 2x Usage | $36.00 | 86.5% ($245.70) |
+
 
 **Before (traditional SaaS):**
 **After (AI-enabled):**
