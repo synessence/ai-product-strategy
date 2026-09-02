@@ -51,8 +51,10 @@ Pricing Strategy
 - Estimated units/user/month: 360000
 - Implied revenue/user/month: $20.00
 
-Decision Note
+**Decision Note**
 Why this pricing structure fits the buyer and the value delivered: ·We are using AI to increase conversions while lowering call center engagement.  Therefore we are following a combination of increased conversions and lowered support costs.
+
+## Before/After for Board
 
 **Before (traditional SaaS):**
 Revenue: $85/seat x 36000 seats = $3M
