@@ -24,8 +24,8 @@
 ## Cost Curve
 | Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted | Justification of Model |
 |---------|------------|------------|----------|----------|----------|------------------------|
-| Domain SME | Low | Small | .005 | 40% | .002 | Small domain corpus |
-| Site guide | Low | Small | .005 | 30% | .0015 | Small site scope |
+| Domain SME | Low | Small | .00005 | 40% | .0002 | Small domain corpus |
+| Site guide | Low | Small | .00005 | 30% | .00 15 | Small site scope |
 | Case resolution | Mid | Mid | .01 | 30% | .003 | MCP integration to other agent |
 
 
