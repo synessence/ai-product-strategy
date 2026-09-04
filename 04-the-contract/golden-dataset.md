@@ -21,15 +21,27 @@
 **Adversarial rows included:** 2
 **Coverage gaps identified by partner:**
 
+
+
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Show uncertainty and offer to escalate to a CSR (human in the loop trigger)
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**Confident (>90%):** Full answer.
 
-**User control surface:**
+**Uncertain (50-90%):** I am unable to answer that question.  Would you like me to escalate to a CSR?
+
+**Not confident (<50%):** I am unable to answer that question.  Would you like me to escalate to a CSR?
+
+**User control surface:** 
+
+Each prompt that results in less than 90% confidence is registered for human review and addition to the knowledge corpus.
+
+- Corrections feed back into the model / dataset
+- Users adjust the confidence threshold _(not yet)_
+- Users see AI reasoning / drivers _(not yet)_
+- Users correct & override outputs _(not yet)_
+
 
 ## Reliability Contract
 
