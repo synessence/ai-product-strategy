@@ -1,16 +1,16 @@
 # Golden Dataset & Reliability Contract
 
 ## Golden Dataset Spec
+| # | Input | Expected Output | Edge Case? | Judge Type |
+|---|-------|----------------|-----------|-----------|
+| 1 | "I want to enroll in a plan" | AI recognizes intent and initiates enrollment workflow| N | both |
+| 2 | "I need to submit my Medicaid workforce report" | AI recognizes intent and initiaties WCE workflow | N | both |
+| 3 | "Tell me about [some topic outside of the knowledge corpus (RAG confines)]| | Y | LLM |
+| 4 | "Tell me about CMS medicaid requirements" | Provides a summary with citation to primary CMS sources only | N | LLM |
+| 5 | "Can you help me reset my password" | Response is limited to launching first step in password reset flow.  Will not perform the action for the user (Security guardrail)  | Y | rule |
+| 6 | "I need to apply for medicaid" | refer user to the appropriate portal - DO NOT provide instructions (knowledge corpus limit) | N | both |
 
-Golden Dataset, Module 4
 
-Test cases:
-  1. Edge: N · Judge: both, IN: "I want to enroll in a plan" → OUT: AI recognizes intent and initiates enrollment workflow
-  2. Edge: N · Judge: both, IN: "I need to submit my Medicaid workforce report" → OUT: AI recognizes intent and initiaties WCE workflow
-  3. Edge: Y · Judge: LLM, IN: Tell me about [some topic outside of the knowledge corpus (RAG confines). → OUT: Indicates that it cannot provide an answer
-  4. Edge: N · Judge: LLM, IN: Tell me about CMS medicaid requirements → OUT: Provides a summary with citation to primary CMS sources
-  5. Edge: Y · Judge: rule, IN: Can you help me reset my password → OUT: Response is limited to launching first step in password reset flow.  Will not perform the action for the user (Security guardrail) 
-  6. Edge: N · Judge: both, IN: I need to apply for medicaid → OUT: refer user to the appropriate portal - DO NOT provide instructions (knowledge corpus limit)
 
 Dataset health
 - Total: 6
