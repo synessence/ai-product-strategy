@@ -47,13 +47,20 @@ Each prompt that results in less than 90% confidence is registered for human rev
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 92% | Weekly · 300 golden rows · LLM-as-Judge (GPT-4o, accuracy rubric) | 88 → route to human review queue |
+| Hallucination rate | <1% | Same weekly run · safety rubric flags fabricated policies/numbers | >1% → auto-rollback to last good model |
+| Latency (p95) | <2s | Datadog monitoring | >5s → page on-call |
+| Drift velocity | <0.5%/week | 4-week rolling accuracy trend | >1% decay → trigger gold-set audit |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+
+**Trigger:** Confidence below 88%
+
+**Reviewer:** Domain knowledge SME on call
+
+**Feedback loop:** Updates knowledge corpus; adds specific case to golden dataset
+
+
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
