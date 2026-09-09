@@ -58,6 +58,41 @@ Can open a summarized case for CSR review.
 
 
 ## Shadow AI Audit
+Shadow AI Audit (user-side), Module 5
+
+## Discover, User-Side Workarounds
+- users copy plan details into ChatGPT to ask for assessments and recommendations as to which they should choose. | source: Forum/Reddit | signal: Workflow gap | freq: H | spend: $0/mo | decision: Ignore
+- Document Extraction & Eligibility Self-Screening | source: Forum/Reddit | signal: Capability gap | freq: H | spend: $TBD/mo | decision: Build
+- Multi-Factor PCP Matching & "In-Network" Verification | source: Forum/Reddit | signal: Workflow gap | freq: H | spend: $TBD/mo | decision: Build
+
+## Pattern Assessment
+- Workarounds found: 3
+- Build candidates: 2
+- Partner candidates: 0
+- Ignore decisions: 1
+- Adjacent spend: $0/mo
+- Dominant signal: Workflow gap
+
+## Action Plan
+### Build
+Multi-Factor PCP Matching & "In-Network" Verification; Document Extraction & Eligibility Self-Screening
+
+### Partner
+·
+
+### Ignore + Monitor
+users copy plan details into ChatGPT to ask for assessments and recommendations as to which they should choose.  Our contract explicitly disallow us from making plan recommendations so this is not scope that we can touch.
+
+## Roadmap Brief
+Based on your audit: 3 user-side workarounds discovered.
+Decisions: 2 build · 0 partner · 1 ignore · 0 TBD.
+Estimated adjacent spend: $0/mo across surveyed users.
+Dominant signal: Workflow gap.
+
+Recommended next step: Workflow gaps dominate, your users are stitching your product into multi-step pipelines. Strongest near-term move is partner integrations with the AI tools they already chain in.
+
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
+
 
 | Tool | Owner | Risk Level | Decision |
 |------|-------|-----------|----------|
