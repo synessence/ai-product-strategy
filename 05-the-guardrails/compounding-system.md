@@ -10,7 +10,26 @@
 | Network Intelligence | CMS policy updates | Enhanced and current context for overarching CMS requirements that apply to all state agencies, not just the | Y | active |
 
 **Broken loop identified by partner:** Cross-domain transfer; eligibility and enrollment flows are siloed.
+Critique
+Broken Recursive Loop: Support ticket edits and agent corrections are currently dumped into silos rather than returning to fine-tune model parameters or update evaluation sets.
+
+Samsung-Path Risk (Data Leakage): Support agents interacting with PHI/PII during Medicaid enrollment guidance risk exposing sensitive data to downstream model providers.
+
+Air Canada-Path Risk (Unchecked Actions): Generative guidance lacks clear autonomy boundaries, raising the risk of the system making unapproved policy promises or inaccurate routing decisions.
+
+
 **Fix plan:** Make each Agent aware of and informed of the other's scope so that they remain aware of  their role in the overarching user CX.
+1. Feedback Loops & Context Connectivity
+Automate Feedback Ingestion: Build an automated pipeline to route human overrides, agent corrections, and support logs directly into the golden evaluation dataset and weekly model fine-tuning workflows.
+
+Cross-Domain Context Sharing: Standardize data schemas across adjacent services to enable context sharing while maintaining strict privacy boundaries.
+
+2. Governance & Operational Safeguards
+Enforce Data Ingress/Egress Controls: Implement client-side PII/PHI redaction layers prior to model submission and enforce zero-data-retention agreements with downstream vendors.
+
+Define Autonomy Boundaries: Categorize actions into Read/Draft (Autonomous) vs. Write/Commit (Human Approval Required). Require human sign-off before committing binding policy guidance or external routing actions.
+
+Confidence Escalation: Implement real-time confidence thresholding that automatically escalates low-confidence outputs or sensitive edge cases to human representatives.
 
 ## Context Connectivity
 <!-- How does knowledge flow across teams and domains? Where does it silo? -->
