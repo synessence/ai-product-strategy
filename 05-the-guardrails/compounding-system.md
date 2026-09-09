@@ -1,18 +1,24 @@
+
 # Compounding System Design
 
 ## Feedback Loops
 
 | Loop | Input | Output | Compounds? | Status |
 |------|-------|--------|-----------|--------|
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
+| Recursive Learning | User questions identify gaps in knowledge base | updated golden data set; flag to add KB content with HITL review | Y | missing |
+| Cross-Domain Transfer | kb updates from associted portals (eligiblity for example) | Enhanced context of the holistic user journey (not just the Agents piece of it) | Y | broken |
+| Network Intelligence | CMS policy updates | Enhanced and current context for overarching CMS requirements that apply to all state agencies, not just the | Y | active |
 
-**Broken loop identified by partner:**
-**Fix plan:**
+**Broken loop identified by partner:** Cross-domain transfer; eligibility and enrollment flows are siloed.
+**Fix plan:** Make each Agent aware of and informed of the other's scope so that they remain aware of  their role in the overarching user CX.
 
 ## Context Connectivity
 <!-- How does knowledge flow across teams and domains? Where does it silo? -->
+
+**How knowledge flows:** Support tickets; consumer feedback; chat transcripts; CSAT scores
+
+**Where it silos:** Eligibility and enrollment are treated as disconnected jobs-to-be-done even though the user experiences them as a continuum.
+
 
 ## Governance Policy
 
