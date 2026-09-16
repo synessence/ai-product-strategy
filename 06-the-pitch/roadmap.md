@@ -93,12 +93,12 @@ Fund a **one-quarter foundation-and-validation phase** (H1 + early H2) whose sol
 ## Coaching Notes
 Three coaching notes:
 
-Opening line (say this first, out loud):
+**Opening line (say this first, out loud):**
 "The hard part of this system isn't answering the questions — it's the assistant reliably knowing which questions it's forbidden to answer, and we've built the pitch around proving we can measure that."
 
-If you only get 60 seconds:
+**If you only get 60 seconds:**
 "A federal law is about to flood state call centers with redetermination questions that are mostly procedural confusion, and we can deflect a measurable share of them to a self-serve assistant that never makes an eligibility decision. The single risk that matters is the assistant being confidently wrong about someone's coverage — so we've made determinations a hard refusal and front-loaded the eval and compliance work before any scale. We're asking for one quarter of funding to turn the reliability target and the savings model into measured numbers, and pausing all moonshot work until they're green."
 
-The one question they'll ask first:
+**The one question they'll ask first:**
 "Your 92% reliability rests on an 8-row golden set — so you don't actually have a reliability number, do you?"
 Answer: "Correct, and we're not claiming one — 92% is the target we're funding the evidence to earn; H1's first deliverable is a 300+ case, harm-tiered, adversarial golden set that gates every model and prompt change in CI, and until that's green the safety floor doesn't depend on hitting the accuracy target at all, because the assistant escalates below threshold and refuses every determination outright."
