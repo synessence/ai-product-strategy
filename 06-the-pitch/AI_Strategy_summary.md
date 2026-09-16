@@ -37,3 +37,34 @@ Biggest Risk: A confident, in-corpus, wrong answer on an eligibility-adjacent qu
 Rebuild the eval before the product. Expand the golden set from 8 rows to a few hundred representative and adversarial cases across your target states, and re-derive the reliability target as severity-weighted error (an eligibility mistake ≠ a formatting mistake), not flat accuracy. "92%" should be a measured, harm-tiered number.
 Prove the compliance and confidence path. Confirm the 88% trigger is computable on calibrated confidence, and specify BAA-covered production infrastructure as an explicit workstream.
 Fix the Margin story. Delete the 176% → 261% figure, replace it with baseline calls × cost/call × deflection % − AI COGS/unit, and state opportunity cost versus a cheaper non-AI alternative.
+
+
+
+
+=============
+**Alternative archetype** 
+
+ow would this change if I centered on an Automator archetype?
+
+Weighing whether the moat tradeoff is actually inevitable.
+Centering on Automator is mostly a narrowing decision, and it cuts in two directions at once: it makes the product easier to build and safer to govern, and it strips out your only product-level path to a moat. That trade is the whole story, so let me start there and then walk the dimensions that actually move.
+
+The core trade. An Automator does one bounded task end-to-end and wins on reliability and unit cost. The Orchestrator ambition in your file — routing, integrating into additional systems, sitting inside the eligibility/case workflow — was where workflow-depth defensibility lived. Committing to Automator means deliberately setting that down. For a regulated gov-benefits product, that may not even be a real sacrifice, because the deep-integration path runs through the systems-access contract the incumbent integrator already holds. So centering Automator is arguably just naming what you can actually build today. But you should make the choice knowing it moves your moat entirely off the product and onto trust, brand, and contract incumbency.
+
+Here's how the scores shift.
+
+Capability: 2 → 3. The gap to close shrinks. You drop the multi-system MCP-integration capability, and — importantly — a pure Automator touches less PHI, because you're summarizing a policy corpus and doing a dumb handoff to a CSR rather than reaching into case systems. Smaller data surface means a more contained compliance architecture. The calibrated-confidence requirement for your 88% trigger doesn't go away (that's intrinsic to any HITL design), but the overall build becomes realistically closeable. Recommendation is unchanged but easier to execute.
+
+Impact: stays 2, but the analysis gets honest. Automator impact is capped by the deflection ceiling — it's a pure cost-reduction play with one lever, and it plateaus once common questions are covered. You lose any expansion or revenue upside that orchestration might have offered. The upside is that the margin model becomes trivial to build because there's a single driver (deflection rate). The score stays at 2 only because it's still unquantified in the file — but this archetype makes the fix a one-afternoon exercise.
+
+Defensibility: 3 → 2. This is the cost of the decision. The 3 I gave rested partly on a latent moat path — the integration depth you could have pursued. Centering Automator forecloses it. A bounded "answer enrollment questions from a corpus" task is the single most replicable archetype; a vertical competitor or the incumbent integrator can stand up an equivalent in months. Your correct threat diagnosis doesn't change, but you now have no product-level answer to it. Your defense has to move to the layer you already flagged — public trust and the enrollment contract itself — which is real, but it lives outside this dimension. Recommendation changes accordingly: stop looking for a product moat and invest in the trust/incumbency moat explicitly (accuracy track record, brand as the official channel, contractual position).
+
+Governance & Scale: 3, with a clear path to 4. Automator shrinks the blast radius — fewer systems, lower autonomy, smaller PHI surface, cleaner escalation boundaries. Your "AI won't explain case status" boundary gets easier to hold because you're not integrated into case history anyway. The eval-cadence and "confidently wrong" gaps remain (archetype-independent), but they're now scoped to a narrower task, so they're more tractable. Fix the eval and this becomes a 4.
+
+Gap Identification: stays 2, and the Contract gets more central. When answering the question is the entire product, answering it wrong is existential — there's no orchestration value to fall back on. So the Contract weakness (92% against 8 rows) doesn't just remain the biggest gap, it becomes the whole game. The upside is focus: a pure Automator has exactly one thing to get right, and everything I said about severity-weighted evals points straight at it.
+
+Net effect on the overall picture. The overall score doesn't move off 2 — you trade a point of defensibility for a point of capability and a clearer path on governance and margin. But the shape of the strategy gets much cleaner: one metric (deflection), one core risk (a confidently wrong answer), one moat (trust, held off-product), one build (reliable bounded summarization). That legibility is worth something a board will value.
+
+The one question centering Automator forces you to answer out loud: if the product itself is commoditizable, what makes you the enrollment channel of record — and can a competitor take that position from you without also taking the underlying contract? If the honest answer is "they can't, because we hold the contract and the trust," then Automator is the right call and your strategy work should shift to defending that, not the model. If the answer is "they could," then Automator alone isn't a business, and you need to re-open the orchestration path despite its cost.
+
+Want me to redo the full scored writeup centered on Automator, or build out the trust/incumbency moat section — since that's where your defensibility has to live if you take this path?
