@@ -1,13 +1,5 @@
 # Three-Horizon Roadmap & Board Pitch
 
-> **Read this first — the two docs describe different products.**
-> Your **strategy summary** is *AI contract review for mid-market legal teams* (clause library, $50K auto-approval boundary, $2/contract). Your **backlog** is a *Medicaid / health-benefits enrollment chatbot* (BAA/HIPAA/PHI, per-state eligibility, CSR handoff, deflection economics, named threats like Maximus/Gainwell/Deloitte/Conduent). The backlog also references figures absent from the pasted strategy — the "92%-against-8-rows" target, the "88% trigger," the "176%→261%" margin figure — strong evidence it was written against a *different* strategy doc.
->
-> **Two consequences:**
-> 1. There are **no `[User-mapped to: X]` lines** in the 42 rows. The `component:` fields are Jira components (ML/Eval, Compliance, etc.), not Bet/Moat/Margin/Contract/Guardrails — so every mapping below is mine.
-> 2. The five-component framework *is* shared across both docs, so I mapped each item to the **role** each component plays: **Contract** = reliability/eval/confidence/human-review; **Guardrails** = compliance, boundaries, governance; **Margin** = economics; **Moat** = defensibility; **Bet** = the core value-prop. Swap in the real healthcare strategy doc and I'll re-run against its actual Bet/Moat/Margin language.
-
----
 
 ## Horizon 1 — Ship (0–4 weeks)
 
@@ -90,6 +82,16 @@
 
 - **(a) Most over-indexed horizon:** H1 is massively over-indexed — roughly 30 of 42 items are foundational de-risking. H2 holds real bets but few test the core *deflection* thesis; H3 is nearly empty (little cheap optionality); and no horizon contains anything that builds The Bet itself.
 - **(b) H3 bet to protect if budget got cut:** #35 (trusted agentic-network spike) — the cheapest shot at a durable moat in a strategy that, per your own epic 30, admits the product-level moat is foreclosed.
+
+## Notes
+> **Read this first — the two docs describe different products.**
+> Your **strategy summary** is *AI contract review for mid-market legal teams* (clause library, $50K auto-approval boundary, $2/contract). Your **backlog** is a *Medicaid / health-benefits enrollment chatbot* (BAA/HIPAA/PHI, per-state eligibility, CSR handoff, deflection economics, named threats like Maximus/Gainwell/Deloitte/Conduent). The backlog also references figures absent from the pasted strategy — the "92%-against-8-rows" target, the "88% trigger," the "176%→261%" margin figure — strong evidence it was written against a *different* strategy doc.
+>
+> **Two consequences:**
+> 1. There are **no `[User-mapped to: X]` lines** in the 42 rows. The `component:` fields are Jira components (ML/Eval, Compliance, etc.), not Bet/Moat/Margin/Contract/Guardrails — so every mapping below is mine.
+> 2. The five-component framework *is* shared across both docs, so I mapped each item to the **role** each component plays: **Contract** = reliability/eval/confidence/human-review; **Guardrails** = compliance, boundaries, governance; **Margin** = economics; **Moat** = defensibility; **Bet** = the core value-prop. Swap in the real healthcare strategy doc and I'll re-run against its actual Bet/Moat/Margin language.
+
+---
 
 
 ## Board Pitch
