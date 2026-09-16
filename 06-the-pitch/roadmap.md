@@ -76,10 +76,7 @@
 
 | Initiative | Why it's flagged | Recommendation |
 |---|---|---|
-| 27. Replace 176%→261% figure | Maps to Margin, but it's a 5-minute doc correction, not a strategic initiative — masquerading as backlog work | Cut as a tracked ticket; make the edit and let #24/#25/#26 carry the real margin story |
-| *(structural gap, not a row)* | Nothing maps to **The Bet**. Every item de-risks, measures, or defends the product; none improves the core enrollment-automation capability users actually touch | Add at least one Bet-advancing initiative, or accept that this is a de-risking quarter and say so explicitly |
 
-Everything else maps cleanly to one of the five components, so the Unmapped section is deliberately near-empty — the real signal is the *inverse*: a whole component (Bet) with zero build items.
 
 ---
 
@@ -93,7 +90,7 @@ Everything else maps cleanly to one of the five components, so the Unmapped sect
 
 - **(a) Most over-indexed horizon:** H1 is massively over-indexed — roughly 30 of 42 items are foundational de-risking. H2 holds real bets but few test the core *deflection* thesis; H3 is nearly empty (little cheap optionality); and no horizon contains anything that builds The Bet itself.
 - **(b) H3 bet to protect if budget got cut:** #35 (trusted agentic-network spike) — the cheapest shot at a durable moat in a strategy that, per your own epic 30, admits the product-level moat is foreclosed.
-- **(c) The one initiative to kill today:** #27 — deleting the uninterpretable 176%→261% figure is a doc edit, not strategy work; make the change, close the ticket, and stop tracking housekeeping as backlog.
+
 
 ## Board Pitch
 
