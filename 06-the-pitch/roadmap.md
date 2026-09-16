@@ -65,48 +65,27 @@
 ## Board Pitch
 
 **Thesis (1 sentence):**
+We can move a measurable share of Medicaid redetermination and enrollment questions off the phone lines and into a self-serve assistant that answers policy and process questions accurately — and hands off to a human the instant it hits anything it can't stand behind.
 
 **The case:**
-1. Why now:
-2. What's defensible:
-3. The economics:
+
+1. **Why now:** A 2025 federal law (P.L. 119-21) imposes work requirements and six-month redeterminations on expansion adults, phasing in through 2026 with a hard January 2027 deadline across 44 states. This is producing the highest redetermination-notice volume on record, and the projected coverage losses are driven by *procedural* confusion — missed forms, wrong addresses, misunderstood exemptions — not genuine ineligibility. That is a call-center demand shock made of exactly the question type a bounded assistant can answer, arriving on a fixed regulatory clock. The window is the next 12 months, before states finish standing up their own call-center capacity.
+
+2. **What's defensible (M2):** Be honest about what the moat is and isn't. It is **not** the model — vendor portability is only partial and models are commodity. The durable barrier is twofold: (a) a **regulatory + public-trust moat** — platform players are structurally unlikely to encroach on Medicaid eligibility guidance, and (b) a **state-specific curated corpus that compounds** through the recursive-learning loop (user questions surface KB gaps → human-approved content → better coverage). The weakest link is exactly where the strategy says it is: **domain and network context.** And note the flag from our own evaluation — whether this moat survives *without* the contract is currently a **low-confidence, unproven** claim (H2, item 33). We are not asking the board to believe we have a durable moat today; we're asking to fund the work that proves whether one exists.
+
+3. **The economics (M3):** Lead with the structural unit cost, not a margin figure. A contained self-serve AI interaction costs on the order of **single-digit cents** in inference; a live agent contact costs **[insert your baseline $/call — item 24]**, typically several dollars to low double digits. That gap is the entire thesis. What we do **not** have yet is a defensible savings number — and we're saying so on purpose. The 176%→261% margin figure has been **removed** (item 27) because it wasn't defensible, and per-interaction COGS (item 25), deflection rate, and modeled annual savings (item 26) are H1/H2 deliverables. We are pitching a favorable unit-cost structure and a plan to earn the savings number, not a savings number we can't back.
 
 **The risks:**
-1. Trust / failure modes:
-2. Scale / governance:
-3. Competitive:
+
+1. **Trust / failure modes (M4):** The front-page failure is singular and specific: the assistant **makes or implies an eligibility determination, or explains why a case has a given status, and is wrong** — and someone loses or forgoes coverage over it. The system is architected to make that structurally impossible, not merely unlikely: a hard refusal boundary on determinations and case-status questions (100% refusal target, item 22), confidence-gated escalation to a CSR, and out-of-corpus refusal (item 21). **The honest gap:** our reliability evidence does not yet support the 92% target — an 8-row golden set with 2 adversarial cases proves nothing, which is why H1's first deliverable grows it to 300+ harm-tiered, ≥25%-adversarial cases gating every change in CI (items 2–6). Until that's green, the safety floor rests on the human-escalation boundary, not on the accuracy number. **One thing to reconcile before you present:** M4 sets the escalation threshold at 88%, M5's trigger list says 92% — pick one and validate it (item 18).
+
+2. **Scale / governance (M5):** Three things break at 10x. (a) **Policy drift** — state rules change constantly under the new law; monthly drift monitoring may be too slow at volume. (b) **The human-approval bottleneck** — every new KB entry requires human sign-off (by design), which does not scale linearly with query growth. (c) **PHI/PII surface** — enrollment assistance touches PHI, so data-minimization, PHI-safe logging, and HIPAA-eligible infra (items 11–15) have to hold under load; this is a **high** risk tier (SOC 2 + HIPAA). Autonomy is deliberately capped: the assistant can only open a summarized case for CSR review — zero autonomous determinations. Governance is mapped; the scale risk is whether the human-in-the-loop cadences keep up, not whether they exist.
+
+3. **Competitive (M1/M2):** The scenario that forces a kill: a systems integrator incumbent — **Maximus, Gainwell, Deloitte, or Conduent** (item 32) — wires an assistant **directly into the eligibility system of record** via the system-of-record integrations the strategy names as the top threat, and answers the case-status and determination questions we structurally can't and won't. Kill criteria are instrumented (items 29, 42): if channel enrollments drop or call-center traffic rises, we've lost the deflection thesis. The H2 bet that de-risks this is item 33 — naming a lever by which the moat survives contract loss — and it's currently low-confidence. If we can't answer that "no" with a named lever, the competitive threat is real and unhedged.
 
 **The ask:**
-
-## M1 Baseline vs. Now
-*Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
-
-**M1 baseline:**
-
-**Now:**
-
----
-
-
-## Board Pitch
-
-**Thesis (1 sentence):**
-
-**The case:**
-1. Why now:
-2. What's defensible:
-3. The economics:
-
-**The risks:**
-1. Trust / failure modes:
-2. Scale / governance:
-3. Competitive:
-
-**The ask:**
-
-## M1 Baseline vs. Now
-*Your 3-sentence AI strategy from Module 1 vs. what you'd say now:*
-
-**M1 baseline:**
-
-**Now:**
+Fund a **one-quarter foundation-and-validation phase** (H1 + early H2) whose sole purpose is to earn the right to make the reliability and savings claims this board won't accept on faith.
+- **Dollars:** [presenter to supply — absent from strategy]
+- **Headcount:** [presenter to supply] — implied roles from the roadmap: ML/eval engineer (harness + confidence scoring), PM (golden set + monthly evals), DevOps (HIPAA infra + drift), Ops (KB content queue), compliance/security (BAA, SOC 2 mapping, HIPAA risk assessment).
+- **What you get:** a **measured** reliability contract (not a target), a **compliant production path** (BAA + HIPAA-eligible infra + PHI-safe logging), and a **defensible savings model** — i.e., the exact three things this room said it cares about.
+- **What gets paused if funded:** all H3 work (the trusted-agentic-network spike, item 35; shadow-AI audit, item 40) and any expansion of scope or autonomy until the eval harness and compliance gates are green.
